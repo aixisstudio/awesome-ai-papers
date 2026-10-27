@@ -34,6 +34,26 @@ _详细内容（列表、链接、描述）以英文维护 — 以下章节为�
 ## 🎓 How to read a paper (fast)
 Abstract → figures → conclusion → method skim. Most value in 20% of pages.
 
+## 📜 Additional canonical papers
+
+| Paper | Why |
+|---|---|
+| LoRA (2021) | Cheap fine-tuning |
+| DPO (2023) | RLHF without RL |
+| FlashAttention (2022) | Why long context got cheap |
+| Scaling Laws (Kaplan 2020) | Predictable improvement |
+| In-Context Learning surveys | Why prompts work |
+| ReAct (2022) | Agents' reasoning loop |
+| RAG (Lewis 2020) | Retrieval-grounded generation |
+
+## 🗂️ Where to follow
+
+- **arxiv cs.CL / cs.LG** daily
+- **Papers with Code** — paper → implementation
+- **HuggingFace Papers** — community-voted daily
+- **The Batch** (Andrew Ng) — weekly digest
+- **alphaxiv** — discuss papers layer
+
 ---
 ## 贡献
 
