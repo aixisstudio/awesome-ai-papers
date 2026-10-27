@@ -25,4 +25,16 @@ Maintained by aixisstudio. Related: Snitch (open-source app firewall). https://g
 ### Efficiency
 - **LoRA** (2021) — fine-tune tiny adapters, not the whole net
 - **FlashAttention** (2022) — exact attention, way faster
-- 
+- **Speculative decoding** (2023) — small model drafts, big model verifies → speedup
+
+## 🎓 How to read a paper (fast)
+Abstract → figures → conclusion → method skim. Most value in 20% of pages.
+
+## 📜 Additional canonical papers
+
+| Paper | Why |
+|---|---|
+| LoRA (2021) | Cheap fine-tuning |
+| DPO (2023) | RLHF without RL |
+| FlashAttention (2022) | Why long context got cheap |
+| Scaling Laws (Kaplan 2
