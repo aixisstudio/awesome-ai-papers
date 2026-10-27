@@ -1,0 +1,14 @@
+name: greetings
+on: [issues, pull_request_target]
+permissions:
+  issues: write
+  pull-requests: write
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: "Welcome! A maintainer will look soon. ⭐"
+          pr-message: "Thanks for the PR! Review coming. 🎉"
