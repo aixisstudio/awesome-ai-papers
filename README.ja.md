@@ -4,55 +4,53 @@
 
 必読 AI 論文をわかりやすく
 
-_詳細なコンテンツ（リスト・リンク・説明）は保守のため英語です。以下のセクションがガイドになります。_
+##  simply 必見, 単に説明
 
-## 📜 Must-reads, explained simply
+##トランスフォーマー時代
+- **注意は、あなたが必要とするすべてです** (2017) — それをすべて開始した紙: 自己保持は再発を置き換えます
+- **BERT** (2018) — 双方向のプリトレンディング; 理解のためのエンコーダモデル
+-**GPT-2 / GPT-3** (2019/2020) — 法律のスケーリング: より大きい → 緊急の能力、少数のショット学習
 
-### Transformers era
-- **Attention Is All You Need** (2017) — the paper that started it all: self-attention replaces recurrence
-- **BERT** (2018) — bidirectional pretraining; encoder models for understanding
-- **GPT-2 / GPT-3** (2019/2020) — scaling laws: bigger → emergent abilities, few-shot learning
+## モダンLLM
+- **InstructGPT** (2022) — RLHF: 指示に従うためにモデルを教える, ちょうどオートコンプリート
+- **Chain-of-Thought** (2022) — 「ステップバイステップを考える」 実際に作品
+- **ReAct** (2022) — 推論 + 演技の解釈 — エージェントパターン
+- **建設AI** (2022) — クロードのアライメント方法
+- **RLAIF / DPO** (2023) — RLの不安定性のないシンプルな設定トレーニング
 
-### Modern LLMs
-- **InstructGPT** (2022) — RLHF: teach the model to follow instructions, not just autocomplete
-- **Chain-of-Thought** (2022) — "think step by step" actually works
-- **ReAct** (2022) — reasoning + acting interleaved — the agent pattern
-- **Constitutional AI** (2022) — Claude's alignment method
-- **RLAIF / DPO** (2023) — simpler preference training without RL instability
+## 属性とエージェント
+- **RAG** (2020) — 再資源化された生成、元
+- **ミドル**(2023)にLost — 長いコンテキストモデルは、中を無視する → コンテキストを整理する方法
+- **Toolformer** (2023) — APIを呼び出すために自分自身を教えるモデル
+- **GraphRAG** (2024, Microsoft) — 実体グラフは、マルチホップのネーブチャンク検索を打つ
 
-### Retrieval & agents
-- **RAG** (2020) — retrieval-augmented generation, original
-- **Lost in the Middle** (2023) — long-context models ignore the middle → how to arrange context
-- **Toolformer** (2023) — models teaching themselves to call APIs
-- **GraphRAG** (2024, Microsoft) — entity graphs beat naive chunk search for multi-hop
+## 効率
+- **LoRA** (2021) — 純正の小さなアダプター、純正
+- **FlashAttention** (2022) — 正確な注意、方法より速く
+- **指定の解読** (2023) — 小さいモデルのドラフト、大きいモデルは → スピードアップを検証します
 
-### Efficiency
-- **LoRA** (2021) — fine-tune tiny adapters, not the whole net
-- **FlashAttention** (2022) — exact attention, way faster
-- **Speculative decoding** (2023) — small model drafts, big model verifies → speedup
+## 紙を読む方法(高速)
+抽象 → 図 → 結論 → 方法スキム. ページの20%のほとんどの値。
 
-## 🎓 How to read a paper (fast)
-Abstract → figures → conclusion → method skim. Most value in 20% of pages.
+## 📜 追加の観音用紙
 
-## 📜 Additional canonical papers
-
-| Paper | Why |
+| 論文 | なぜ |
 |---|---|
-| LoRA (2021) | Cheap fine-tuning |
-| DPO (2023) | RLHF without RL |
-| FlashAttention (2022) | Why long context got cheap |
-| Scaling Laws (Kaplan 2020) | Predictable improvement |
-| In-Context Learning surveys | Why prompts work |
-| ReAct (2022) | Agents' reasoning loop |
-| RAG (Lewis 2020) | Retrieval-grounded generation |
+| LoRA(2021年) | 格安・お得 |
+| DPO(2023) | RLHFなし |
+| FlashAttention(2022年) | 長い文脈が安いのはなぜ |
+| スケールアップ法(仮面2020) | 予測改善 |
+| In-Context 学習調査 | なぜプロンプトが働くのか |
+| ReAct(2022) | エージェントの推論ループ |
+| RAG(Lewis 2020) | 立派な世代 |
 
-## 🗂️ Where to follow
+## フォローする場所
 
-- **arxiv cs.CL / cs.LG** daily
-- **Papers with Code** — paper → implementation
-- **HuggingFace Papers** — community-voted daily
-- **The Batch** (Andrew Ng) — weekly digest
-- **alphaxiv** — discuss papers layer
+- **arxiv cs.CL/cs.LG**毎日
+- **Code** — ペーパー → 実装
+- **HuggingFace Papers** — コミュニティ投票
+- **The Batch** (Andrew Ng) — 毎週の消化
+- **alphaxiv** — 紙層の議論
 
 ---
 ## 貢献
