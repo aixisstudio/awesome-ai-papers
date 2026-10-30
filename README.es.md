@@ -4,55 +4,53 @@
 
 Papers de IA imprescindibles, explicados
 
-_El contenido detallado (listas, enlaces, descripciones) está en inglés por mantenibilidad — las secciones siguientes te guían._
-
 ## 📜 Must-reads, explained simply
 
 ### Transformers era
-- **Attention Is All You Need** (2017) — the paper that started it all: self-attention replaces recurrence
-- **BERT** (2018) — bidirectional pretraining; encoder models for understanding
-- **GPT-2 / GPT-3** (2019/2020) — scaling laws: bigger → emergent abilities, few-shot learning
+- ** La intención es todo lo que necesitas** (2017) - el papel que lo inició todo: la autoatención reemplaza la recurrencia
+**BERT** (2018) — preentrenamiento bidireccional; modelos de encoder para la comprensión
+- **GPT-2 / GPT-3** (2019/2020) — leyes de escalada: mayor → habilidades emergentes, aprendizaje poco caliente
 
 ### Modern LLMs
-- **InstructGPT** (2022) — RLHF: teach the model to follow instructions, not just autocomplete
-- **Chain-of-Thought** (2022) — "think step by step" actually works
-- **ReAct** (2022) — reasoning + acting interleaved — the agent pattern
-- **Constitutional AI** (2022) — Claude's alignment method
-- **RLAIF / DPO** (2023) — simpler preference training without RL instability
+- **InstrucciónGPT** (2022) — RLHF: enseñar al modelo a seguir instrucciones, no sólo autocompleto
+- El pensamiento (2022) - "pensar paso a paso" realmente funciona
+- **React** (2022) - razonamiento + actuación entrelazada - el patrón de agente
+**Alianza constitucional** (2022) — Método de alineación de Claude
+**RLAIF / DPO** (2023) - entrenamiento de preferencia más sencillo sin inestabilidad RL
 
-### Retrieval & agents
-- **RAG** (2020) — retrieval-augmented generation, original
-- **Lost in the Middle** (2023) — long-context models ignore the middle → how to arrange context
-- **Toolformer** (2023) — models teaching themselves to call APIs
-- **GraphRAG** (2024, Microsoft) — entity graphs beat naive chunk search for multi-hop
+### Retrieval &quot; agents
+**RAG** (2020) — regeneración aumentada, original
+- **Perdidos en el Medio** (2023) - modelos de largo contexto ignoran el medio → cómo organizar el contexto
+- **Toolformer** (2023) — modelos que se enseñan a llamar API
+- **GraphRAG** (2024, Microsoft) — los gráficos de la entidad golpearon la búsqueda ingenua del pedazo de pómulo
 
-### Efficiency
-- **LoRA** (2021) — fine-tune tiny adapters, not the whole net
-- **FlashAttention** (2022) — exact attention, way faster
-- **Speculative decoding** (2023) — small model drafts, big model verifies → speedup
+### Eficiencia
+- **LoRA** (2021) - adaptadores pequeños finos, no toda la red
+**FlashAttention** (2022) — atención exacta, mucho más rápido
+- **Decodificación visual** (2023) — pequeños proyectos de modelo, modelo grande verifica → speedup
 
-## 🎓 How to read a paper (fast)
-Abstract → figures → conclusion → method skim. Most value in 20% of pages.
+Cómo leer un papel (rápido)
+Resumen → figuras → conclusión → método skim. Mayor valor en el 20% de las páginas.
 
-## 📜 Additional canonical papers
+## 📜 Documentos canónicos adicionales
 
-| Paper | Why |
+Silencioso papel
 |---|---|
-| LoRA (2021) | Cheap fine-tuning |
-| DPO (2023) | RLHF without RL |
-| FlashAttention (2022) | Why long context got cheap |
-| Scaling Laws (Kaplan 2020) | Predictable improvement |
-| In-Context Learning surveys | Why prompts work |
-| ReAct (2022) | Agents' reasoning loop |
-| RAG (Lewis 2020) | Retrieval-grounded generation |
+Silencio LoRA (2021)
+Silencio DPO (2023) Silencio RLHF sin RL
+← FlashAttención (2022) Silencio ¿Por qué el contexto largo fue barato
+Silencioso Leyes de escalamiento (Kaplan 2020)
+Encuestas de aprendizaje en el contexto ¿Por qué los impulsos de trabajo
+Silencio ReAct (2022)
+Silencio RAG (Lewis 2020)
 
-## 🗂️ Where to follow
+## 🗂י Where to follow
 
-- **arxiv cs.CL / cs.LG** daily
-- **Papers with Code** — paper → implementation
-- **HuggingFace Papers** — community-voted daily
-- **The Batch** (Andrew Ng) — weekly digest
-- **alphaxiv** — discuss papers layer
+- **arxiv cs.CL / cs.LG** diario
+- **Papeles con código** - documento → aplicación
+- **HuggingFace Papers** - diario de voto comunitario
+- **El lote** (Andrew Ng) - semanario digesto
+- **Alphaxiv** - discutir la capa de papel
 
 ---
 ## Contribuir
