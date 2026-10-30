@@ -4,55 +4,53 @@
 
 必读 AI 论文精选，简明解读
 
-_详细内容（列表、链接、描述）以英文维护 — 以下章节为你指引。_
+################################################################################################################################################################################################################################################################
 
-## 📜 Must-reads, explained simply
+变革者时代
+- ** " 注意就是一切 " ** (2017年)——开始这一切的论文:自我注意取代了重复
+- **BERT**(2018)——双向预训;用于理解的编码器模型
+- **GPT-2/GPT-3**(2019/2020)——缩放定律:更大 → 初现能力,短镜头学习
 
-### Transformers era
-- **Attention Is All You Need** (2017) — the paper that started it all: self-attention replaces recurrence
-- **BERT** (2018) — bidirectional pretraining; encoder models for understanding
-- **GPT-2 / GPT-3** (2019/2020) — scaling laws: bigger → emergent abilities, few-shot learning
+现代法学硕士
+- ** 指示GPT**(2022)——RLHF:教导模型遵循指令,而不仅仅是自动完成
+- **Chan-of - Thought**(2022)——"一步步思考"实际上有效.
+- ** reAct**(2022)——推理+行为间断——代理模式.
+- ** 宪法AI**(2022)——克劳德的校正方法.
+- **RLAIF/DPO**(2023年)——在不不稳定的RL的情况下进行更简单的优惠培训
 
-### Modern LLMs
-- **InstructGPT** (2022) — RLHF: teach the model to follow instructions, not just autocomplete
-- **Chain-of-Thought** (2022) — "think step by step" actually works
-- **ReAct** (2022) — reasoning + acting interleaved — the agent pattern
-- **Constitutional AI** (2022) — Claude's alignment method
-- **RLAIF / DPO** (2023) — simpler preference training without RL instability
+检索代理( A)
+- **RAG**(2020年)——检索式生成,原件
+- **Lost in the Middle**(2023年)——长文模型忽略了中间——如何安排上下文
+- ** Toolfors**(2023年)——模特自教称API
+- **GraphRAG**(2024,微软)——实体图比天真块搜索多跳
 
-### Retrieval & agents
-- **RAG** (2020) — retrieval-augmented generation, original
-- **Lost in the Middle** (2023) — long-context models ignore the middle → how to arrange context
-- **Toolformer** (2023) — models teaching themselves to call APIs
-- **GraphRAG** (2024, Microsoft) — entity graphs beat naive chunk search for multi-hop
+效率
+- **LORA**(2021)——微调微小适配器,而非整个网.
+- ** FlashAttention**(2022年)——精确的注意,速度快得多.
+- ** 特定解码**(2023年)——小模版草案,大模版验证 速度
 
-### Efficiency
-- **LoRA** (2021) — fine-tune tiny adapters, not the whole net
-- **FlashAttention** (2022) — exact attention, way faster
-- **Speculative decoding** (2023) — small model drafts, big model verifies → speedup
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
+摘要-数字-结论-方法滑动。 在20%的页面中值最多。
 
-## 🎓 How to read a paper (fast)
-Abstract → figures → conclusion → method skim. Most value in 20% of pages.
+□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
 
-## 📜 Additional canonical papers
-
-| Paper | Why |
+为什么?
 |---|---|
-| LoRA (2021) | Cheap fine-tuning |
-| DPO (2023) | RLHF without RL |
-| FlashAttention (2022) | Why long context got cheap |
-| Scaling Laws (Kaplan 2020) | Predictable improvement |
-| In-Context Learning surveys | Why prompts work |
-| ReAct (2022) | Agents' reasoning loop |
-| RAG (Lewis 2020) | Retrieval-grounded generation |
+LORA(2021) 廉价微调
+- DPO(2023年) - 没有RL的RLHF
+QQ FlashAttenty (2022) QQ为什么长期上下文变得便宜 QQ
+扩大法律(卡普兰,2020年)
+校对:Soup
+QQ ReAct (2022) 代理推理圈 QQ
+QQ RAG(利维斯2020年) QQ 检索定位一代 QQ
 
-## 🗂️ Where to follow
+□□□□□□□□□□□
 
-- **arxiv cs.CL / cs.LG** daily
-- **Papers with Code** — paper → implementation
-- **HuggingFace Papers** — community-voted daily
-- **The Batch** (Andrew Ng) — weekly digest
-- **alphaxiv** — discuss papers layer
+- **arxiv cs.CL / cs.LG**日报
+- ** 附有守则的文件**——文件——执行
+- ** 《笑脸文件》**——社区投票日报
+- **批次**(Andrew Ng)——每周摘要
+- 讨论文件层
 
 ---
 ## 贡献
