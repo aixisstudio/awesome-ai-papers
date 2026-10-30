@@ -4,55 +4,53 @@
 
 Обязательные статьи по ИИ, простым языком
 
-_Подробное содержимое (списки, ссылки, описания) ведётся на английском — разделы ниже помогут сориентироваться._
+##   Must-reads, просто объясняется
 
-## 📜 Must-reads, explained simply
+###Трансформеры
+Внимание - это все, что вам нужно (2017) - статья, которая начала все это: самовнимание заменяет повторение
+**BERT** (2018) — двунаправленная подготовка; модели кодеров для понимания
+**GPT-2 / GPT-3** (2019/2020) — законы масштабирования: большие → возникающие способности
 
-### Transformers era
-- **Attention Is All You Need** (2017) — the paper that started it all: self-attention replaces recurrence
-- **BERT** (2018) — bidirectional pretraining; encoder models for understanding
-- **GPT-2 / GPT-3** (2019/2020) — scaling laws: bigger → emergent abilities, few-shot learning
+### Современные LLM
+• InstructGPT** (2022) — RLHF: научите модель следовать инструкциям, а не только автозаполнению
+Цепь мысли (2022) — «думай шаг за шагом» на самом деле работает
+**ReAct** (2022) — рассуждение + действие чередуются — агент шаблон
+**Конституционный ИИ** (2022) — метод выравнивания Клода
+** RLAIF / DPO** (2023) — более простое обучение предпочтениям без нестабильности RL
 
-### Modern LLMs
-- **InstructGPT** (2022) — RLHF: teach the model to follow instructions, not just autocomplete
-- **Chain-of-Thought** (2022) — "think step by step" actually works
-- **ReAct** (2022) — reasoning + acting interleaved — the agent pattern
-- **Constitutional AI** (2022) — Claude's alignment method
-- **RLAIF / DPO** (2023) — simpler preference training without RL instability
+### Поиск и агенты
+**RAG** (2020) — Retrieval-augmented generation, оригинал
+Потерянные в середине (2023) — модели с длинным контекстом игнорируют середину
+Toolformer (2023) — модели, обучающие себя называть API
+**GraphRAG** (2024, Microsoft) — графы сущности побеждают наивный поиск фрагментов для мульти-хоп
 
-### Retrieval & agents
-- **RAG** (2020) — retrieval-augmented generation, original
-- **Lost in the Middle** (2023) — long-context models ignore the middle → how to arrange context
-- **Toolformer** (2023) — models teaching themselves to call APIs
-- **GraphRAG** (2024, Microsoft) — entity graphs beat naive chunk search for multi-hop
+### Эффективность
+LoRA (2021) — тонкая настройка крошечных адаптеров, а не всей сети
+**FlashAttention** (2022) — точное внимание, намного быстрее
+**Специальная декодировка** (2023) — малые макеты, большая модель проверяет → ускорение
 
-### Efficiency
-- **LoRA** (2021) — fine-tune tiny adapters, not the whole net
-- **FlashAttention** (2022) — exact attention, way faster
-- **Speculative decoding** (2023) — small model drafts, big model verifies → speedup
+##  How Как читать статью (быстро)
+Аннотация → цифры → вывод → метод скима. Наибольшее значение в 20% страниц.
 
-## 🎓 How to read a paper (fast)
-Abstract → figures → conclusion → method skim. Most value in 20% of pages.
+## Дополнительные канонические документы
 
-## 📜 Additional canonical papers
-
-| Paper | Why |
+Оригинальное название: Why
 |---|---|
-| LoRA (2021) | Cheap fine-tuning |
-| DPO (2023) | RLHF without RL |
-| FlashAttention (2022) | Why long context got cheap |
-| Scaling Laws (Kaplan 2020) | Predictable improvement |
-| In-Context Learning surveys | Why prompts work |
-| ReAct (2022) | Agents' reasoning loop |
-| RAG (Lewis 2020) | Retrieval-grounded generation |
+| LoRA (2021) | Дешевая настройка
+| DPO (2023) | RLHF без RL |
+Внимание (2022) Почему длинный контекст стал дешевым
+Законы масштабирования (Каплан 2020) Предсказуемое улучшение
+Обследования в контексте обучения | Почему подсказки работают
+| ReAct (2022) | Аргументация агентов
+| RAG (Lewis 2020) | Поколение, основанное на поиске
 
-## 🗂️ Where to follow
+##  ️ Куда поехать
 
-- **arxiv cs.CL / cs.LG** daily
-- **Papers with Code** — paper → implementation
-- **HuggingFace Papers** — community-voted daily
-- **The Batch** (Andrew Ng) — weekly digest
-- **alphaxiv** — discuss papers layer
+**arxiv cs.CL/cs.LG** ежедневно
+** Документы с кодом** — бумага
+**Бумаги об обнимающем лице** — ежедневно проголосуемые сообществом
+** The Batch** (Эндрю Нг) — еженедельный дайджест
+- **alphaxiv** - обсуждение документов
 
 ---
 ## Участие
